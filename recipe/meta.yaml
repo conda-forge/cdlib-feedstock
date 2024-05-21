@@ -1,5 +1,5 @@
 {% set name = "cdlib" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/cdlib-{{ version }}.tar.gz
-  sha256: 31623d498c29e5b079a24ebff48098d8f28e372e829dfeea4af41285db7e9065
+  sha256: 52433dd4f7b980f78498f48dc16029801007c5e1cd0c8ac08e3a40e92c517ab0
 
 build:
   noarch: python
