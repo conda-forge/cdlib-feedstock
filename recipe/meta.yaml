@@ -16,24 +16,24 @@ build:
 
 requirements:
   host:
-    - python >= 3.9
+    - python >=3.9
     - pip
   run:
-    - python >= 3.9
+    - python >=3.9
     - numpy
     - matplotlib-base
     - scikit-learn
     - tqdm
-    - networkx >= 3.0
+    - networkx >=3.0
     - demon
-    - python-louvain >= 0.16
+    - python-louvain >=0.16
     - scipy
     - pulp
     - seaborn
     - pandas
     - eva-lcd
     - bimlpa
-    - python-igraph >= 0.10
+    - python-igraph >=0.10
     - angelcommunity
     - pooch
     - dynetx
