@@ -1,5 +1,5 @@
 {% set name = "cdlib" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -16,31 +16,30 @@ build:
 
 requirements:
   host:
-    - python >=3.8
+    - python >= 3.9
     - pip
   run:
-    - python >=3.8
+    - python >= 3.9
     - numpy
     - matplotlib-base
     - scikit-learn
     - tqdm
-    - networkx >=3.0
+    - networkx >= 3.0
     - demon
-    - python-louvain >=0.16
-    - nf1
+    - python-louvain >= 0.16
     - scipy
     - pulp
     - seaborn
     - pandas
-    - eva-lcd
+    - eva_lcd
     - bimlpa
-    - markov-clustering
-    - python-igraph >=0.10
+    - python-igraph >= 0.10
     - angelcommunity
     - pooch
     - dynetx
     - thresholdclustering
-    - python-levenshtein
+    - python-Levenshtein
+    - plotly
 
 test:
   imports:
