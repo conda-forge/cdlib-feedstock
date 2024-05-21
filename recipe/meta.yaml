@@ -31,7 +31,7 @@ requirements:
     - pulp
     - seaborn
     - pandas
-    - eva_lcd
+    - eva-lcd
     - bimlpa
     - python-igraph >= 0.10
     - angelcommunity
